@@ -15,7 +15,7 @@ def bucketSort(arr):
         buckets.append([])
         
     max_value = max(arr)
-    for i in range(n):
+    for num in range(n):
         index = num / (max_value + 1)
         bucketNumber = int(index * n)
         buckets[bucketNumber].append(arr[i])
