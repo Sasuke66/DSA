@@ -7,11 +7,13 @@ hash_map['age'] = 30
 
 # Retrieving values from the hash map
 name = hash_map.get('name')
+print(name)  # Output: John Doe
 
 # Checking if a key exists in the hash map
 if 'age' in hash_map:
     age = hash_map['age']
-    
+    print(age)  # Output: 30
+
 # Removing a key-value pair from the hash map
 del hash_map['name']
 
